@@ -22,15 +22,43 @@ git clone https://github.com/SHIV000000/InfoHub.git
 ```bash
 cd InfoHub
 ```
-cd InfoHub-Data-Dashboard
-Install dependencies:
-bash
-Copy code
+### Create a Virtual Environment
+
+#### For macOS/Linux:
+
+```bash
+python3 -m venv venv
+```
+
+#### For Windows:
+
+```bash
+py -m venv venv
+```
+
+### Activate the Virtual Environment:
+
+#### For macOS/Linux:
+
+```bash
+source venv/bin/activate
+ ```
+
+#### For Windows:
+
+```bash
+.\venv\Scripts\activate
+```
+## Install dependencies
+
+```bash
 pip install -r requirements.txt
-Run the Streamlit app:
-bash
-Copy code
+```
+## Run the Streamlit app:
+
+```bash
 streamlit run app.py
+```
 Access the app:
 Open a web browser and go to http://localhost:8501
 
