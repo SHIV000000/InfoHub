@@ -23,29 +23,29 @@ git clone https://github.com/SHIV000000/InfoHub.git
 ```bash
 cd InfoHub
 ```
-### Create a Virtual Environment
+## Create a Virtual Environment
 
-#### For macOS/Linux:
+### For macOS/Linux:
 
 ```bash
 python3 -m venv venv
 ```
 
-#### For Windows:
+### For Windows:
 
 ```bash
 py -m venv venv
 ```
 
-### Activate the Virtual Environment:
+## Activate the Virtual Environment:
 
-#### For macOS/Linux:
+### For macOS/Linux:
 
 ```bash
 source venv/bin/activate
  ```
 
-#### For Windows:
+### For Windows:
 
 ```bash
 .\venv\Scripts\activate
