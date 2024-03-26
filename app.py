@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 from datetime import datetime
+from streamlit_option_menu import option_menu
 
 # Function to fetch weather data
 def get_weather(city_name):
@@ -81,8 +82,13 @@ def display_covid_tracker():
     st.write(f'Total Deaths: {covid_data["total_deaths"]}')
     st.write(f'Total Recovered: {covid_data["total_recovered"]}')
 
-# Navigation sidebar
-dashboard_selection = st.sidebar.radio("Select Dashboard", ("Weather Forecast", "Currency Converter", "Stock Market Analysis", "COVID-19 Tracker"))
+
+dashboard_selection = option_menu(
+    menu_title= "MAIN MENU",
+    options = ["Weather Forecast", "Currency Converter", "COVID-19 Tracker"],
+    icons=["weather", "currency",'covid' ],
+    orientation= "horizontal" ,)
+
 
 # Display selected dashboard
 if dashboard_selection == "Weather Forecast":
