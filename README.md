@@ -1,6 +1,7 @@
 # InfoHub: Data Dashboard
 
 InfoHub is a comprehensive data dashboard application built using Streamlit. It provides various functionalities related to weather forecasting, currency conversion, stock market analysis, and COVID-19 tracking.
+deplyed here [streamlit](https://shiv000000-infohub-app-ziyzec.streamlit.app)
 ![infohub](infohub.png)
 
 ## Features
