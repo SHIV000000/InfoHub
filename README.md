@@ -70,6 +70,6 @@ Streamlit: For building the interactive web application.
 Python: For backend development and data processing.
 Requests: For making HTTP requests to fetch weather and currency data.
 Pandas: For data manipulation and analysis.
-Contributing
-Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 ```
+## Contributing
+#### Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
