@@ -44,7 +44,7 @@ py -m venv venv
 
 ```bash
 source venv/bin/activate
- ```
+```
 
 ### For Windows:
 
